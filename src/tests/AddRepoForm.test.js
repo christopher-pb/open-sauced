@@ -15,7 +15,7 @@ test("container component should have no violations", async() => {
   cleanup();
 });
 
-test("should render a link to track first repository if there are no repositories", () => {
+test("should render a link to track first repository if there are no repositoriess", () => {
   const {container} = render(<AddRepoForm />);
   expect(container).toHaveTextContent("Add");
 });
